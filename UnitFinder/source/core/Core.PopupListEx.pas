@@ -69,10 +69,4 @@ begin
   Result := -1;
 end;
 
-initialization
-  PopupList.Free();
-  PopupList:= TPopupListEx.Create();
-
-finalization
-
 end.
