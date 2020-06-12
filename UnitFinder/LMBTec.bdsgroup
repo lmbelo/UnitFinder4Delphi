@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{40A160F9-ACDC-4539-8A80-1179803E6C21}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    
+    
+    <Projects>
+      <Projects Name="LMBTec.IDE.Ext.bpl">IDE.bdsproj</Projects>
+      <Projects Name="LMBTec.dclIDE.Ext.bpl">dclIDE.bdsproj</Projects>
+      <Projects Name="LMBTec.Core.Ext.bpl">Core.bdsproj</Projects>
+      <Projects Name="Targets">LMBTec.IDE.Ext.bpl LMBTec.dclIDE.Ext.bpl LMBTec.Core.Ext.bpl</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{BF7681BF-3E19-4077-819E-EAF2E33021F4}">
+        <Dependency GUID="{F7339C3F-D42D-41BF-B4A0-46209487112C}"/>
+      </Dependency>
+      <Dependency GUID="{284F09B1-4111-4976-BB94-D82FB1946067}">
+        <Dependency GUID="{BF7681BF-3E19-4077-819E-EAF2E33021F4}"/>
+        <Dependency GUID="{F7339C3F-D42D-41BF-B4A0-46209487112C}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

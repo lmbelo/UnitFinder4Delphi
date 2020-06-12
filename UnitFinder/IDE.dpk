@@ -1,0 +1,43 @@
+package IDE;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'LMBTec IDE Extension Library'}
+{$LIBPREFIX 'LMBTec.'}
+{$LIBSUFFIX '.Ext'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vcldesigner,
+  Core;
+
+contains
+  IDE.UnitFinder in 'source\ide\IDE.UnitFinder.pas',
+  IDE.Interfaces in 'source\ide\IDE.Interfaces.pas',
+  IDE.Task in 'source\ide\IDE.Task.pas',
+  IDE.FinderFiller in 'source\ide\IDE.FinderFiller.pas';
+
+end.
